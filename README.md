@@ -114,13 +114,14 @@ Este projeto foi desenvolvido por estudantes da FIAP como parte da Global Soluti
 
 ---
 
-## 💡 Próximos passos sugeridos
+## 👥 Equipe
 
-- Adicionar autenticação JWT  
-- Implementar paginação e ordenação  
-- Criar testes automatizados  
-- Realizar deploy em nuvem (Railway, Render, etc)
+| Nome                                | RM       | GitHub                                |
+|-------------------------------------|----------|----------------------------------------|
+| Murilo Ribeiro Santos               | RM555109 | [@murilors27](https://github.com/murilors27) |
+| Thiago Garcia Tonato                | RM99404  | [@thiago-tonato](https://github.com/thiago-tonato) |
+| Ian Madeira Gonçalves da Silva      | RM555502 | [@IanMadeira](https://github.com/IanMadeira) |
 
----
+**Curso**: Análise e Desenvolvimento de Sistemas  
+**Instituição**: FIAP – Faculdade de Informática e Administração Paulista
 
-✅ *Última atualização: Junho de 2025*
