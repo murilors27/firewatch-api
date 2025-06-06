@@ -16,6 +16,6 @@ public class EquipamentoEmergencia {
     @Column(name = "ID_EQUIPAMENTO_EMERGENCIA")
     private Long id;
 
-    @Column(name = "NOME", nullable = false, length = 100)
+    @Column(name = "NOME_EQUIPAMENTO", nullable = false, length = 100)
     private String nome;
 }
