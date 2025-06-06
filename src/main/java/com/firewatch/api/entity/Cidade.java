@@ -13,9 +13,9 @@ public class Cidade {
     @Column(name = "ID_CIDADE")
     private Long id;
 
-    @Column(name = "NOME_CIDADE", nullable = false)
+    @Column(name = "NOME", nullable = false, length = 100)
     private String nome;
 
-    @Column(name = "ESTADO")
+    @Column(name = "ESTADO", length = 2)
     private String estado;
 }
