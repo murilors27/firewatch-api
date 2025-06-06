@@ -13,7 +13,7 @@ RUN useradd -m -u 99404 appuser
 
 # Define as variáveis de ambiente
 ENV SPRING_PROFILES_ACTIVE=dev
-ENV ORACLE_DB_HOST=oracle.db
+ENV ORACLE_DB_HOST=oracle-db
 ENV ORACLE_DB_PORT=1521
 ENV ORACLE_DB_SERVICE=XEPDB1
 ENV ORACLE_DB_PORT=1521
