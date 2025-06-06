@@ -16,6 +16,6 @@ public class Cidade {
     @Column(name = "NOME", nullable = false, length = 100)
     private String nome;
 
-    @Column(name = "ESTADO", length = 2)
+    @Column(name = "UF", nullable = false, length = 2)
     private String estado;
 }
