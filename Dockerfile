@@ -11,14 +11,14 @@ WORKDIR /app
 # Cria um usuário não-root para segurança
 RUN useradd -m -u 99404 appuser
 
-# Define as variáveis de ambiente
+# Define as variáveis de ambiente padrão
 ENV SPRING_PROFILES_ACTIVE=dev
-ENV ORACLE_DB_HOST=oracle-db
-ENV ORACLE_DB_PORT=1521
-ENV ORACLE_DB_SERVICE=XEPDB1
-ENV ORACLE_DB_PORT=1521
-ENV ORACLE_DB_USERNAME=
-ENV ORACLE_DB_PASSWORD=
+ENV MYSQL_DB_HOST=firewatch-mysql
+ENV MYSQL_DB_PORT=3306
+ENV MYSQL_DB_NAME=firewatch
+# Variáveis sensíveis que devem ser fornecidas no docker run
+ENV MYSQL_DB_USERNAME=
+ENV MYSQL_DB_PASSWORD=
 
 # Copia o arquivo JAR do estágio de build
 COPY --from=build /app/target/*.jar app.jar

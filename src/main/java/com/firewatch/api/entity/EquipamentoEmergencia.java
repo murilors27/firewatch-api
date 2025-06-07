@@ -2,7 +2,6 @@ package com.firewatch.api.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.NaturalId;
 
 @Entity
 @Table(name = "EQUIPAMENTO_EMERGENCIA")
