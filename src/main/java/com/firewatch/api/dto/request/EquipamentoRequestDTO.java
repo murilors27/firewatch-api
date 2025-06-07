@@ -1,4 +1,7 @@
 package com.firewatch.api.dto.request;
 
-public record EquipamentoRequestDTO(String nome) {
-}
+import jakarta.validation.constraints.NotBlank;
+
+public record EquipamentoRequestDTO(
+    @NotBlank(message = "O nome do equipamento é obrigatório") String nome
+) {}
