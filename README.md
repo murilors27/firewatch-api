@@ -120,7 +120,7 @@ link: [https://youtu.be/OFm5LudVRk4](https://youtu.be/OFm5LudVRk4)
 
 ---
 
-## 🎬 Link do 
+## 🎬 Link do Pitch
 
 link: [https://youtu.be/mPeuguGTgCA](https://youtu.be/mPeuguGTgCA)
 
