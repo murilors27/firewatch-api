@@ -116,7 +116,7 @@ Este projeto foi desenvolvido por estudantes da FIAP como parte da Global Soluti
 
 ## 🎬 Link do Vídeo Demonstrativo
 
-link: [https://youtube.com/shorts/zH9TaHd4DSM?feature=share](https://youtube.com/shorts/zH9TaHd4DSM?feature=share)
+link: [https://youtu.be/OFm5LudVRk4](https://youtu.be/OFm5LudVRk4)
 
 ---
 
